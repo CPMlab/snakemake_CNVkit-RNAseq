@@ -15,6 +15,7 @@ The following software and Python libraries are required:
 
 ## Pipeline Structure
 The pipeline consists of the following Snakemake rules:
+![workflow](https://github.com/user-attachments/assets/9763af13-6b46-4ec8-8d4b-4a620b44424f)
 
 ### 1. `rule all`
 Defines the final output, ensuring that `.pdf` files for all samples are generated in the `cnv_output` directory.
